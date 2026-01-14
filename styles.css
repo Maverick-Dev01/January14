@@ -118,22 +118,31 @@ body {
 }
 
 /* Área de Texto con Scroll Funcional */
+/* Busca esto en styles.css y REEMPLÁZALO por esto: */
+
 .page__text {
   font-family: 'Lato', sans-serif;
   color: var(--ink);
-  font-size: 1rem; /* Legible pero permite mucho texto */
+  font-size: 1rem; 
   line-height: 1.6;
   text-align: justify;
   
-  /* Flexbox para ocupar el espacio restante */
-  flex-grow: 1;
-  height: 0; /* Truco CSS para forzar scroll en flex items */
-  overflow-y: auto; 
-  padding-right: 8px;
+  /* === MAGIA PARA EL SCROLL EN MÓVIL === */
+  flex: 1;           /* Ocupa el espacio disponible */
+  min-height: 0;     /* Truco vital para que el scroll funcione dentro de Flexbox */
+  overflow-y: auto;  /* Habilita la barra de desplazamiento */
   
-  /* Soporte táctil móvil */
-  -webkit-overflow-scrolling: touch;
-  touch-action: pan-y; 
+  /* Espaciado interno para que el dedo tenga espacio al tocar */
+  padding-right: 15px; 
+  
+  /* === ESTO HACE QUE DESLIZAR EL DEDO FUNCIONE BIEN === */
+  touch-action: pan-y;               /* Permite deslizar verticalmente */
+  -webkit-overflow-scrolling: touch; /* Scroll suave "inercial" en iPhone/Android */
+  overscroll-behavior: contain;      /* Evita que al deslizar se mueva toda la página web */
+  
+  /* Asegura que el texto esté "encima" de todo para recibir el toque */
+  position: relative;
+  z-index: 5; 
 }
 
 /* Footer fijo */
