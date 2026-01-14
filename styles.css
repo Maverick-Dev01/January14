@@ -62,7 +62,12 @@ body {
   box-shadow: inset 5px 0 15px rgba(0,0,0,0.6);
   z-index: 10;
 }
-.book.open .cover { transform: rotateY(-180deg); z-index: 0; }
+/* Busca esto en tu CSS y actualízalo */
+.book.open .cover { 
+  transform: rotateY(-180deg); 
+  z-index: -1; /* Lo mandamos al fondo */
+  pointer-events: none; /* ESTO ES LA CLAVE: Hace que la portada sea "intangible" al abrirse */
+}
 
 .cover__title { color: var(--gold); margin: 10px 0; font-size: 2.5rem; line-height: 1; }
 .cover__title span { font-family: 'Great Vibes', cursive; color: #fff; font-size: 0.8em; display: block; margin-top: 5px; }
@@ -127,22 +132,24 @@ body {
   line-height: 1.6;
   text-align: justify;
   
-  /* === MAGIA PARA EL SCROLL EN MÓVIL === */
-  flex: 1;           /* Ocupa el espacio disponible */
-  min-height: 0;     /* Truco vital para que el scroll funcione dentro de Flexbox */
-  overflow-y: auto;  /* Habilita la barra de desplazamiento */
+  /* Flexbox para ocupar espacio */
+  flex: 1;
+  min-height: 0;
   
-  /* Espaciado interno para que el dedo tenga espacio al tocar */
+  /* Scroll y Tacto */
+  overflow-y: scroll; /* 'scroll' es más agresivo que 'auto' para móviles */
   padding-right: 15px; 
   
-  /* === ESTO HACE QUE DESLIZAR EL DEDO FUNCIONE BIEN === */
-  touch-action: pan-y;               /* Permite deslizar verticalmente */
-  -webkit-overflow-scrolling: touch; /* Scroll suave "inercial" en iPhone/Android */
-  overscroll-behavior: contain;      /* Evita que al deslizar se mueva toda la página web */
+  /* Optimizaciones Táctiles Críticas */
+  touch-action: pan-y;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
   
-  /* Asegura que el texto esté "encima" de todo para recibir el toque */
-  position: relative;
-  z-index: 5; 
+  /* == LA SOLUCIÓN == */
+  position: relative; 
+  z-index: 100; /* Asegura que esté encima de todo */
+  transform: translateZ(1px); /* Truco para que el móvil sepa que esto es interactivo en 3D */
+  pointer-events: auto; /* Fuerza la activación del tacto */
 }
 
 /* Footer fijo */
