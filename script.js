@@ -36,7 +36,7 @@ const chaptersData = [
     title: "Donde todo comenzó sin pedir permiso",
     text: `<p>El amor real no toca la puerta con timidez; la derriba. Llegaste a mi vida de golpe, desordenando mi paz meticulosamente construida para llenarla de un caos hermoso y vibrante. No pediste permiso para entrar, simplemente tomaste tu lugar.</p>
     <p>Como en <em>Diario de una Pasión</em>, nuestra historia no empezó siendo fácil ni tranquila. Hubo retos, dudas y miedos, pero había algo innegable debajo de todo eso: una conexión que gritaba más fuerte que cualquier lógica.</p>
-    <p>Desde ese primer momento supe que esto no sería pasajero. Había una intensidad en el aire, una electricidad estática que nos advertía que, una vez que empezáramos, no habría vuelta atrás. Y bendito sea el día en que decidimos saltar.</p>`,
+    <p>Desde ese primer momento supe que esto no sería pasajero. known Había una intensidad en el aire, una electricidad estática que nos advertía que, una vez que empezáramos, no habría vuelta atrás. Y bendito sea el día en que decidimos saltar.</p>`,
     caption: "El Inicio"
   },
   {
@@ -60,22 +60,140 @@ const chaptersData = [
     <p>La tecnología dejó de ser fría porque tú estabas al otro lado, llenando de calidez cada pixel. Esas noches hablando hasta tarde, luchando contra el sueño solo para estar un ratito más juntos, son tesoros que guardo con cariño.</p>`,
     caption: "Digital"
   },
-  // ... (Aquí irían el resto de los capítulos extendidos siguiendo este formato)
-  // Para no hacer el código infinito aquí, asumo que copiarás el estilo de arriba para los 24.
-  // He dejado los primeros 6 como ejemplo de LONGITUD.
-  // EL RESTO SE GENERARÁ CON TEXTO GENÉRICO LARGO SI NO LO MODIFICAS, O PUEDES COPIAR Y PEGAR TUS TEXTOS.
+
+  // === NUEVOS CAPÍTULOS (7 - 24) ===
+
+  {
+    title: "Un mes bastó para cambiar el calendario",
+    text: `<p>El primer mes contigo no fue un “mes”. Fue una revolución discreta. Todo siguió pareciendo normal para el mundo, pero por dentro yo ya caminaba distinto: más atento a los detalles, más vivo, más consciente de que el día podía ser bonito solo porque tú existías en él.</p>
+    <p>Me sorprendió cómo empezamos a tener rutinas sin sentirlas pesadas: ese “buenos días” que no era costumbre sino promesa, esas conversaciones que se extendían porque nadie quería ser el primero en colgar, esa sensación ridícula y preciosa de que la distancia se volvía pequeña cuando tu voz aparecía.</p>
+    <p>Y entendí algo que no enseñan en ningún lado: cuando alguien te importa de verdad, el tiempo deja de ser cifra y se vuelve significado. El calendario cambió porque tú le diste un motivo para existir.</p>`,
+    caption: "Primer Mes"
+  },
+  {
+    title: "La palabra que no volvió a ser ligera",
+    text: `<p>Hay palabras que se dicen como quien lanza una moneda al aire, esperando suerte. Y luego está esa palabra. La que no se pronuncia por impulso, sino por certeza. La que te cambia el cuerpo por dentro, como si el corazón entendiera antes que la boca.</p>
+    <p>Cuando dije “te amo”, lo sentí como un punto sin retorno. No por miedo, sino por respeto. Porque amar no es decorar el lenguaje: es asumir un compromiso invisible. Es elegirte incluso cuando nadie mira, incluso cuando el mundo insiste en cansarte.</p>
+    <p>Desde ese día, esa palabra dejó de ser ligera. Se volvió casa. Se volvió verdad. Y lo más bonito es que en ti no sonó grande por drama, sonó grande por destino.</p>`,
+    caption: "Te Amo"
+  },
+  {
+    title: "Sueños que coincidieron sin ensayar",
+    text: `<p>Lo raro no fue que nos gustaran cosas parecidas. Lo raro fue que nuestros sueños parecían hablar el mismo idioma sin haberse conocido. Como si tu futuro y el mío se hubieran visto de lejos y hubieran decidido caminar hacia el mismo punto.</p>
+    <p>Te escuchaba hablar de lo que querías, y yo sentía esa paz extraña que solo aparece cuando algo encaja de verdad. No era dependencia, era compatibilidad real: la clase de coincidencia que no se fuerza, que no se negocia, que simplemente sucede.</p>
+    <p>Y ahí supe que lo nuestro no era un accidente bonito. Era una construcción posible. Un “sí” silencioso entre tus planes y los míos. Un lugar donde los sueños no chocan, se acompañan.</p>`,
+    caption: "Compatibles"
+  },
+  {
+    title: "Cuando la luz decidió vivir en tus ojos",
+    text: `<p>Yo antes creía que la luz era cosa del sol, de focos, de pantallas, de cosas medibles. Luego te miré. Y entendí que hay luces que no iluminan objetos, iluminan vidas. Tus ojos no brillan porque sí. Brillan porque tú estás viva por dentro, porque sientes con fuerza, porque miras con intención.</p>
+    <p>Hay una manera tuya de ver el mundo que vuelve importante lo que antes era ruido. Me haces notar detalles, me haces pausar. Me haces volver a lo simple. Y en esa simpleza tu mirada se vuelve hogar, como si me dijera: “Aquí puedes respirar.”</p>
+    <p>Si alguien me preguntara qué es lo más bonito que he visto, yo no hablaría de paisajes. Hablaría de esa luz que aparece en tus ojos cuando te ríes, cuando te emocionas, cuando confías.</p>`,
+    caption: "Tu Mirada"
+  },
+  {
+    title: "El primer encuentro con la realidad temblando",
+    text: `<p>Hay cosas que por mensaje se sienten grandes, pero cara a cara se vuelven infinitas. El primer encuentro contigo fue eso: la realidad poniéndose nerviosa. Yo iba preparado para verte, pero no existe preparación real para cuando algo que amas se vuelve tangible.</p>
+    <p>El mundo alrededor seguía funcionando como siempre, pero a mí me fallaba el sistema. Las manos no sabían dónde ir, la voz se hacía tímida, el corazón se ponía imprudente. Y tú… tú estabas ahí, real, hermosa, presente. Más de lo que cualquier imaginación puede fabricar.</p>
+    <p>Ese día entendí que el amor también tiene cuerpo. Que no solo se piensa o se siente: también se sostiene. Y yo quería sostenerte, no por posesión, sino por cuidado. Porque por fin estabas aquí.</p>`,
+    caption: "Primer Encuentro"
+  },
+  {
+    title: "Un amor que no cabía en los besos",
+    text: `<p>Los besos son hermosos, sí. Pero lo nuestro siempre fue más grande que eso. Lo nuestro vive en lo cotidiano, en lo que no se presume. Vive en la forma en que nos entendemos cuando el mundo pesa, en la manera en que nos calmamos sin necesidad de tener todas las respuestas.</p>
+    <p>Me enamora cómo te vuelves refugio sin darte cuenta. Cómo tu presencia ordena mis pensamientos. Cómo tu risa hace que cualquier día mediocre se vuelva digno de recordarse. Eso no cabe en un beso, aunque un beso lo intente.</p>
+    <p>Conocí contigo una ternura adulta: la que no necesita espectáculo, la que se sostiene en la lealtad, en el respeto, en la paciencia. Es un amor que se nota incluso cuando no estamos tocándonos.</p>`,
+    caption: "Más Allá"
+  },
+  {
+    title: "San Valentín dejó de ser un día triste",
+    text: `<p>Hay días que para algunos son fiesta y para otros son espejo. San Valentín solía ser uno de esos días raros: te hace preguntarte por qué el amor parece existir siempre para los demás. Pero contigo, ese día dejó de doler. Se volvió celebración y, más importante, se volvió verdad.</p>
+    <p>No porque el mundo lo marcara en rojo, sino porque por primera vez tenía sentido. No era una fecha obligatoria, era un recordatorio: alguien me eligió. Y yo elegí a alguien. Y esa elección no se agota cuando termina el día.</p>
+    <p>Ese San Valentín no fue perfecto por regalos o fotos. Fue perfecto porque ya no estaba solo. Porque el amor ya tenía nombre, voz, y forma de mirarme como si yo también fuera hogar.</p>`,
+    caption: "14 de Febrero"
+  },
+  {
+    title: "Enamorarse otra vez de lo mismo",
+    text: `<p>Lo más extraño del amor real es que no ocurre una sola vez. Ocurre muchas. Te enamoras cuando te conocen, te enamoras cuando te descubren, te enamoras cuando te vuelven a elegir en un día difícil. Y yo me enamoré otra vez de ti en pequeñas escenas: en tu forma de cuidar, en tu forma de hablar, en tu forma de ser fuerte sin perder la ternura.</p>
+    <p>Me di cuenta de que no te amo solo por lo bonito. Te amo por lo humano. Por tus miedos, tus dudas, tus silencios, tus batallas internas que nadie ve. Te amo porque sigues avanzando incluso cuando te cansas.</p>
+    <p>Y así, sin necesidad de nuevas historias, me enamoro de lo mismo: de ti siendo tú. De ti existiendo, insistiendo, brillando.</p>`,
+    caption: "Otra Vez"
+  },
+  {
+    title: "Cuando cruzamos lo que juramos no cruzar",
+    text: `<p>En algún punto de la historia, todos hacemos promesas por miedo. “Yo no me voy a involucrar tanto.” “Yo no voy a sentir tan fuerte.” “Yo no voy a depender.” Promesas que no son orgullo, son defensa. Y aun así, llegas tú, y el corazón se ríe de mis barreras.</p>
+    <p>Cruzamos esa línea sin drama, sin grandes discursos, como quien se rinde ante lo inevitable. Fue más un acuerdo silencioso que una decisión: ya no estábamos jugando a estar cerca, estábamos construyendo algo.</p>
+    <p>Y lo curioso es que al cruzarla no sentí pérdida. Sentí alivio. Como si por fin dejara de pelear contra lo que ya era cierto: que contigo quiero quedarme de verdad.</p>`,
+    caption: "La Línea"
+  },
+  {
+    title: "La memoria de nuestra piel",
+    text: `<p>Hay un lenguaje que no se aprende en libros: el de la cercanía. Ese idioma donde el cuidado se expresa en la suavidad, donde la confianza se mide en la calma. La primera vez que nuestra piel se reconoció, no fue solo deseo. Fue confirmación.</p>
+    <p>No se trataba de prisa, sino de presencia. De estar ahí, con respeto, con intención, con esa delicadeza que solo existe cuando alguien te importa más que tu impulso. A veces el amor se nota en cómo se toca: sin invadir, sin exigir, como quien agradece.</p>
+    <p>Desde ese día entendí que tu cuerpo no es un lugar para conquistar, es un lugar para honrar. Y que la memoria de la piel guarda lo que el mundo olvida: que fuimos cuidado, que fuimos verdad.</p>`,
+    caption: "Cercanía"
+  },
+  {
+    title: "El deseo también aprende a amar",
+    text: `<p>El deseo sin amor es ruido. El amor sin deseo a veces se queda corto. Pero cuando ambos se encuentran con respeto, se vuelven una fuerza bonita: una energía que no destruye, que construye. Contigo, el deseo no fue hambre. Fue lenguaje.</p>
+    <p>Me enseñaste que la pasión no es solo intensidad. También es confianza. También es reír a media noche, también es mirarnos y entender sin hablar, también es saber parar si hace falta, también es cuidar incluso en lo más vulnerable.</p>
+    <p>Y así, lo que pudo ser solo impulso se volvió algo más fino: una manera de decirte “te elijo” con el cuerpo, pero también con el alma.</p>`,
+    caption: "Deseo"
+  },
+  {
+    title: "Celebrarte fue aprender a agradecer",
+    text: `<p>Tu cumpleaños no es una fecha. Es un recordatorio de que el mundo tuvo suerte cuando llegaste. Celebrarte fue descubrir que mi gratitud tiene forma: se parece a ti sonriendo, se parece a ti emocionada, se parece a ti siendo feliz de verdad.</p>
+    <p>Yo quería darte un regalo que no se guardara en una caja. Quería darte algo que te acompañara: palabras, memoria, un pedacito de eternidad en páginas. Porque tú mereces lo que no se rompe: lo que se siente.</p>
+    <p>Ese día entendí que amar también es esto: alegrarse de que existas. Agradecer tus años. Pedirle al tiempo que te trate con suavidad. Y prometer, aunque sea en silencio, que yo voy a intentarlo también.</p>`,
+    caption: "Tu Día"
+  },
+  {
+    title: "Nuestra primera órbita compartida",
+    text: `<p>Viajar contigo fue ver el mundo con otro color. No porque el lugar fuera perfecto, sino porque íbamos juntos. La primera “traslación” a tu lado se sintió como inaugurar un universo: mapas, calles, cielos, todo parecía nuevo aunque ya hubiera existido antes.</p>
+    <p>Me gustó descubrir cómo eres cuando sales de tu rutina. Cómo te emocionas. Cómo te adaptas. Cómo te vuelves valiente en lo desconocido. Me gustó sentir que la aventura no era el destino, sino tu mano junto a la mía.</p>
+    <p>Desde entonces entendí que quiero eso contigo: caminos. No para huir, sino para construir recuerdos. Porque contigo, incluso perderse se vuelve una forma de encontrarnos.</p>`,
+    caption: "Viaje"
+  },
+  {
+    title: "La idea peligrosa de tenernos siempre",
+    text: `<p>Hay una idea que da miedo porque es demasiado bonita: imaginarte en mi futuro sin condición. No como fantasía, sino como plan. No como sueño, sino como decisión. Tenernos “siempre” es peligroso porque obliga a ser serio, a crecer, a cuidar.</p>
+    <p>Y aun así, cuando pienso en ese “siempre”, no siento carga. Siento paz. Porque contigo el futuro no se ve como presión, se ve como proyecto. No se ve como jaula, se ve como hogar.</p>
+    <p>Quiero que el tiempo nos encuentre juntos muchas veces más. Quiero que la vida nos ponga retos y que nosotros nos pongamos de acuerdo. Quiero que el “siempre” deje de ser una palabra grande y se vuelva una rutina bonita.</p>`,
+    caption: "Siempre"
+  },
+  {
+    title: "Cuando la llama decidió arder sin miedo",
+    text: `<p>Hubo un punto exacto en nuestra historia donde ya no fingimos prudencia. No fue un momento ruidoso. Fue silencioso, intenso, inevitable. Como si por fin dejáramos de negociar con lo que ya era cierto.</p>
+    <p>Entendí que no toda llama destruye. Algunas existen para iluminar lo que ya no puede ocultarse. Y ahí estábamos, tú y yo, aceptando que arder juntos también era una forma de cuidarnos. Una forma de decir “aquí”, “así”, “ahora”.</p>
+    <p>Si el mundo nos hubiera visto, habría pensado que era pasión. Pero yo lo sentí distinto: era pertenencia sin posesión, era deseo con ternura, era amor dejando de tener miedo a su propio tamaño.</p>`,
+    caption: "Fuego"
+  },
+  {
+    title: "Cuando el tiempo ya sabía tu nombre",
+    text: `<p>Hubo un día en que dejé de preguntarme “qué será de nosotros” y empecé a decir “cuando estemos”. Parece pequeño, pero cambia todo. Porque el futuro dejó de ser una niebla y empezó a tener dirección. Y esa dirección, sin exagerar, te apuntaba a ti.</p>
+    <p>El tiempo, que antes caminaba sin sentido, ahora parece trabajar para nosotros. Como si cada día fuera un paso que nos acerca, como si el universo por fin se alineara con una idea: que lo nuestro merece continuidad.</p>
+    <p>Y es raro… ya no le pido al tiempo que pase rápido. Ahora le pido lo contrario: que se quede. Que nos deje saborearlo. Que nos regale mañanas, tardes y noches donde tu nombre siga siendo el centro.</p>`,
+    caption: "Destino"
+  },
+  {
+    title: "El día que entendí que el amor no basta",
+    text: `<p>Amar es esencial, pero no basta. Porque el amor sin cuidado se desgasta, el amor sin comunicación se confunde, el amor sin paciencia se rompe. Y entender eso no me asustó. Me volvió más consciente. Me volvió mejor.</p>
+    <p>Ese día entendí que quiero amarte con acciones, no solo con intensidad. Quiero aprender a escucharte sin interrumpir, a estar cuando te falte fuerza, a darte espacio cuando lo necesites, a ser refugio y no tormenta.</p>
+    <p>Si el amor no basta, entonces lo completamos con respeto. Con compromiso. Con la decisión diaria de tratarnos bonito, incluso cuando el mundo esté feo.</p>`,
+    caption: "Madurez"
+  },
+  {
+    title: "Y aun así, el camino apenas empieza",
+    text: `<p>Lo más hermoso de nosotros es que no se siente “final feliz”. Se siente “inicio verdadero”. Como si todo lo vivido hasta ahora fuera apenas el prólogo de algo más grande, más estable, más nuestro.</p>
+    <p>Quiero escribir contigo capítulos donde la vida sea real: con días fáciles y días pesados, con planes que salgan bien y otros que se improvisen. Quiero estar en tu crecimiento, no como espectador, sino como compañero.</p>
+    <p>Si esta historia fuera un libro, yo no querría cerrarlo. Querría seguirlo escribiendo contigo. Porque hay amores que terminan. Y hay amores como el nuestro que, por fin, empiezan.</p>
+    <p>Felices 24 años amor de mi vida. TE AMO!!!</p>`,
+    caption: "Continuar"
+  },
 ];
 
-// Rellenamos el resto de los 24 caps con texto placeholder LARGO para probar el scroll
-while (chaptersData.length < 24) {
-  chaptersData.push({
-    title: `Capítulo ${chaptersData.length + 1}: Una historia que continúa`,
-    text: `<p>Este es un capítulo más de nuestra maravillosa historia. Cada día a tu lado es una nueva página que escribimos juntos con tinta indeleble. No importa cuántos obstáculos aparezcan en el camino, siempre encontramos la manera de superarlos.</p>
-    <p>Quiero llenar este libro con memorias, con risas, con viajes y con esos momentos de silencio cómodo donde no hace falta decir nada para entenderlo todo. Eres mi compañera de vida, mi mejor amiga y el amor que siempre soñé.</p>
-    <p>Sigamos construyendo este futuro, paso a paso, ladrillo a ladrillo. Porque lo que tenemos no se encuentra dos veces en la vida. Te amo hoy más que ayer, y estoy seguro de que mañana te amaré aún más.</p>`,
-    caption: "Nosotros"
-  });
-}
+
+
 
 // === CONFIGURACIÓN DE CAPÍTULOS ===
 const chapters = chaptersData.map((data, i) => {
